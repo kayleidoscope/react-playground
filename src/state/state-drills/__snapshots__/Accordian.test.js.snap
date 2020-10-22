@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordian Component closes the first tab and opens any clicked tab 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+      <p
+        className="content"
+      >
+        Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+      </p>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Accordian Component renders empty given no tabs 1`] = `
+<div>
+  <ul />
+</div>
+`;
+
+exports[`Accordian Component renders no section by default 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 1
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 2
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Section 3
+      </button>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,15 +1,15 @@
 import React from "react";
+import './Accordian.css'
 
-/* Notes for Thursday Kay:
-Must write tests tomorrow*/
+//Yes I know I spelled accordion wrong
 
 class Accordian extends React.Component {
     static defaultProps = {
-        tabs: []
+        sections: []
     };
 
     state = {
-        currentTabIndex: 0
+        currentTabIndex: null
     }
 
     handleButtonClick(index) {
@@ -19,9 +19,10 @@ class Accordian extends React.Component {
 
     renderButtons() {
         return this.props.sections.map((section, index) => (
-            <li key={index}>
+            <li 
+                key={index}>
                 <button 
-                
+                    className="accordion-button"
                     onClick={() => this.handleButtonClick(index)}
                 >
                     {section.title}

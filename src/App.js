@@ -22,7 +22,6 @@ class App extends Component {
     return (
       <div className="App">
         <h1>YOUR APPLICATION NAME!</h1>
-        <div>Hello!</div>
         <Accordian sections={sections} />
       </div>
     );
